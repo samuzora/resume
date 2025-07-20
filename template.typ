@@ -99,6 +99,17 @@
   Conducted an exploration of the applications of Large Language Models in red-
   and blue-team cybersecurity, including code analysis, incident response, and
   safer high-interaction honeypots
+
+  #experience-header([Intern, Ensign Infosecurity], [Feb 2025 - Apr 2025])
+
+  Interned at *Ensign Labs* under the Vulnerability Research team. Conducted a
+  VR exercise on a family of TP-Link routers, finding 1 undisclosed LAN-side
+  vulnerability and 1 attack surface that can be chained with other
+  vulnerabilities, both of which lead to remote code execution as root in the
+  router.
+
+  Reverse-engineered and documented previously undocumented inner workings
+  of the TP-Link router, aiding future research on similar router models.
 ]
 
 #let cves = () => [
@@ -180,6 +191,10 @@
   #text(fill: second-text-color)[Writeup:] https://samuzora.com/posts/grey-finals-2024
   #ctf-header([The InfoSecurity Challenge], [Levels 11/12 (2nd place)])
   #text(fill: second-text-color)[Writeup:] https://samuzora.com/posts/tisc-2024
+
+  == 2025
+
+  #ctf-header([NUS Grey Cat the Flag], [1st place])
 ]
 
 #let template = (it) => {
